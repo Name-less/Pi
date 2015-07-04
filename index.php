@@ -9,10 +9,17 @@
 <?php
 if($_GET["dl"]){
 	$url = $_GET["url_song"];
-	echo $url;
-	$cmd = 'cd music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 ' . escapeshellarg($url).'> /dev/null 2>/dev/null &;cd ..';
+	echo "Downloading ...";
+	echo "<br>";
+	//$cmd = 'cd music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 ' . escapeshellarg($url).'> /dev/null 2>/dev/null &;cd ..';
+	$cmd = 'cd music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 ' . escapeshellarg($url).'> /dev/null 2>/dev/null ;cd ..';
 	//$cmd = '/usr/local/bin/youtube-dl -o "/home/pi/%(id)s.%(ext)s" ' . escapeshellarg($url);
 	exec($cmd);
+        echo '
+        <script>
+                window.location.replace("http://lenid.local/toto");
+        </script>
+';
 }
 
 if($_GET["play_song"]){
@@ -20,6 +27,7 @@ if($_GET["play_song"]){
 	$name = str_replace(' ','\ ',$name);
 	$name = str_replace('(','\(',$name);
 	$name = str_replace(')','\)',$name);
+	$name = str_replace('"','\"',$name);
 	$name = str_replace("'","\'",$name);
 	echo exec("kill $(ps -e | grep mplayer | cut -d ' ' -f 2)");
 	$cmd = 'mplayer -idle ./music/'.$name.'> /dev/null 2>/dev/null &';
@@ -55,9 +63,10 @@ while (false !== ($filename = readdir($dh))) {
 	//if(preg_match('`^[[:alnum:]]`',$filename)){
 	        echo '<a href="/toto?play_song=true&name='.$filename.'">'.$filename.'</a>';
         	echo "<br>";
+		echo "<br>";
 	}
 }
-
+	echo "<br>";
 	echo "<br>";
 
 ?>
@@ -69,6 +78,7 @@ while (false !== ($filename = readdir($dh))) {
 
 </form>
 
+<br>
 <br>
 
 <button onclick="window.location.href='/toto?stop_song=true'">Stop song bitches !</button>

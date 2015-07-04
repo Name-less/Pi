@@ -804,3 +804,199 @@ exit
 ls
 nano ~/.zshrc 
 exit
+sudo passwd achille
+sudo netstat -nlp | grep 80
+ls
+rm Mulan\ _Comme\ un\ homme_\ HD-wIyFCW91H0Y.m4a 
+ls
+cd music/
+ls
+cd ..
+ls
+sudo nano index.php 
+ls
+man git
+git init
+git add README.md
+git add -A
+git reset *
+git reset
+ls
+ls -a
+git rm --cached *
+rm .git
+rm -rf .git
+ls
+ls -a
+nano .pulse
+cd .aptitude/
+ls
+cd cache
+nano config
+cd ..
+ls
+git init
+nano .gitignore
+ls
+nano index.php
+git add -A
+git commit -m "correct a little mistake"
+git push -u origin master
+ls
+nano index.php
+ps -e | grep zsh
+1
+chsh -s /bin/zsh
+cd /bin/
+ls
+cd ..
+ls
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cd
+ls -a
+cd .oh-my-zsh/
+ls
+chmod 777 oh-my-zsh.sh 
+./oh-my-zsh.sh 
+ls
+cd /bin
+ls
+cd
+ls
+rm Халк\ крушит.\ Новый\ способ\ исполнения\ пенальти-qzNMkVKuGws.m4a 
+ls
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=T-pq3u-Ey5M
+sudo apt-get install -y libav-tools
+ls
+rm 1st\ Grader\ Backs\ Down\ Homophobe\ Street\ Preacher-T-pq3u-Ey5M.webm 
+ls
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=T-pq3u-Ey5M
+rm 1st\ Grader\ Backs\ Down\ Homophobe\ Street\ Preacher-T-pq3u-Ey5M.mp3 
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=T-pq3u-Ey5M &
+ls
+rm 1st\ Grader\ Backs\ Down\ Homophobe\ Street\ Preacher-T-pq3u-Ey5M.mp3 
+cd remember_dir/
+ls
+cd ..
+ls
+ls -l
+ls -a
+ls
+rm toto
+ls
+youtube-dl --extract-audio --audio-format mp3 \"https:\/\/www.youtube.com\/watch?v=T-pq3u-Ey5M
+ls
+which youtube-dl
+root
+su
+ls
+pwd
+ls
+which youtube-dl 
+chmod 777 /usr/local/bin/youtube-dl 
+sudo chmod 777 /usr/local/bin/youtube-dl 
+ls
+youtube-dl -o "/home/pi https://www.youtube.com/watch?v=GMuZdN84PJg
+youtube-dl -o /home/pi https://www.youtube.com/watch?v=GMuZdN84PJg
+youtube-dl -o /home/pi http://www.youtube.com/watch?v=coq9klG41R8
+ls
+youtube-dl -o /home/pi/toto http://www.youtube.com/watch?v=coq9klG41R8
+ls
+rm toto
+youtube-dl -o "/home/pi/toto" 'http://www.youtube.com/watch?v=coq9klG41R8'
+rm toto
+ls
+rm toto
+ls
+cd remember_dir/
+nano command_rem 
+ls
+cd ..
+ls
+l
+ls
+rm S\'il\ Te\ Plait-coq9klG41R8.mp3 
+ls
+rm S\'il\ Te\ Plait-coq9klG41R8.mp3 
+ls
+rm coq9klG41R8.mp4 
+ls
+cd music/
+ls
+cd ..
+ls
+cd music/
+rm S\'il\ Te\ Plait-coq9klG41R8.mp3 
+cd ..
+ls
+cd music/
+ls
+touch toto
+ls
+rm toto
+ls
+l
+ls
+ps -e | grep youtube
+man mplayer
+man mplayer | grep idle
+ls
+ps -e | grep youtube | cut -d ' ' -f1
+ps -e | grep youtube | cut -d ' ' -f1-
+ps -e | grep youtube | cut -d ' ' -f2-
+ps -e | grep youtube | cut -d ' ' -f-
+ps -e | grep youtube | cut -d ' ' -f
+ps -e | grep youtube | cut -d ' ' -f 1
+ps -e | grep youtube | cut -d ' ' -f 2
+ps -e | grep youtube | cut -d ' ' -f 2 | sudo kill
+ps -e | grep youtube | cut -d ' ' -f 2 | kill
+kill ps -e | grep youtube | cut -d ' ' -f 2 
+ps -e | grep youtube | cut -d ' ' -f 2 | kill
+ps -e | grep youtube | cut -d ' ' -f 2
+ps -e | grep youtube | cut -d ' ' -f 2 | kill
+kill $(ps -e | grep youtube | cut -d ' ' -f 2)
+sudo kill $(ps -e | grep youtube | cut -d ' ' -f 2)
+ps -e | grep youtube | cut -d ' ' -f 2
+sudo kill $(ps -e | grep youtube | cut -d ' ' -f 2)
+ps -e | grep youtube
+sudo netstat -lnp | grep 80
+ls
+cd ..
+ls
+which kill
+chmod 777 /bin/kill
+sudo chmod 777 /bin/kill
+ls
+cd music/
+ls
+mplayer -idle The_Good_Life_Chill_2015.mp3
+ls
+cp The_Good_Life_Chill_2015.mp3 /home/pi
+ls
+cd ..
+ls
+cd music/
+ls
+rm *.m4a
+ls
+rm *E.mp3
+ls
+mplayer Black\ M\ -\ Foutue\ mlodie\ \(audio\)-ZsnYgCy0YrI.mp3 
+mplayer -idle ./music/Black\ M\ -\ Foutue\ mlodie\ (audio)-ZsnYgCy0YrI.mp3
+mplayer -idle ./music/Black\ M\ -\ Foutue\ mlodie\ \( audio\) -ZsnYgCy0YrI.mp3
+cd ..
+ls
+ls -a
+rm The_Good_Life_Chill_2015.mp3 
+ls
+ls -a
+git add -A
+git commit -m "first commit with local website working"
+git remote add origin https://github.com/Name-less/Pi.git
+git commit -m "first commit with local website working"
+git config --global user.name Name-less
+git commit -m "first commit with local website working"
+git push -u origin master
+git credential-osxkeychain
+curl -s -O https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+chmod u+x git-credential-osxkeychain
