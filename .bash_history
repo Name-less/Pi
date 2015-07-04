@@ -1084,3 +1084,50 @@ git add -A
 git commit -m "minor modifications"
 git push -u origin master
 sudo halt
+man amixer
+amixer sset 'Master' 50%
+amixer scontrols 
+amixer sset 'PCM' 50%
+amixer sset 'PCM' 90%
+amixer sset 'PCM' 80%
+amixer sset 'PCM' 70%
+amixer sset 'PCM' 1000%
+amixer sset 'PCM' 100%
+amixer sset 'PCM' 90%
+amixer sset 'PCM' 80%
+amixer sset 'PCM' 70%
+awk -F"[][]" '/dB/ { print $2 }' <(amixer sget Master)
+awk -F"[][]" '/dB/ { print $2 }' <(amixer sget PCM)
+amixer --quiet set Master 75%
+amixer --quiet set PCM 75%
+amixer -q
+amixer -q set PCM
+amixer -q set PCM 90%
+amixer -q set PCM 60%
+awk -F"[][]" '/dB/ { print $2 }' <(amixer sget PCM)
+ls
+nano sound_value
+awk -F"[][]" '/dB/ { print $2 }' <(amixer sget PCM)
+ps -e | grep you
+ls
+git add -A
+git commit -m "possibility to up and down song"
+git push -u origin master
+ps -e | grep you
+ps -e | grep mpla
+sudo kill 3336
+sudo kill 3588
+ps -e | grep mpla
+kill -9 3336
+sudo kill -9 3336
+ls
+cd music/
+ls
+cd ..
+nano inls
+ls
+cd music/
+ls
+mv Bigflo\ \&\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 Bigflo\ \_\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 
+ls
+exit

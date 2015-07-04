@@ -29,9 +29,10 @@ if($_GET["play_song"]){
 	$name = str_replace(')','\)',$name);
 	$name = str_replace('"','\"',$name);
 	$name = str_replace("'","\'",$name);
+	$name = str_replace('&','\&',$name);
 	echo exec("kill $(ps -e | grep mplayer | cut -d ' ' -f 2)");
 	$cmd = 'mplayer -idle ./music/'.$name.'> /dev/null 2>/dev/null &';
-	//echo $cmd;
+	echo $cmd;
 	echo "<br>";
 	exec($cmd);
 	echo '

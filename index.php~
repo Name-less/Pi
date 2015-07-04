@@ -29,14 +29,15 @@ if($_GET["play_song"]){
 	$name = str_replace(')','\)',$name);
 	$name = str_replace('"','\"',$name);
 	$name = str_replace("'","\'",$name);
+	$name = str_replace('&','\&',$name);
 	echo exec("kill $(ps -e | grep mplayer | cut -d ' ' -f 2)");
 	$cmd = 'mplayer -idle ./music/'.$name.'> /dev/null 2>/dev/null &';
-	//echo $cmd;
+	echo $cmd;
 	echo "<br>";
 	exec($cmd);
 	echo '
 	<script>
-        	window.location.replace("http://lenid.local/toto");
+        //	window.location.replace("http://lenid.local/toto");
 	</script>
 ';
 	//exec("mplayer -idle ./music/Black M - Foutue mlodie (audio)-ZsnYgCy0YrI.mp3");
@@ -114,13 +115,14 @@ while (false !== ($filename = readdir($dh))) {
 <br>
 <br>
 <button onclick="window.location.href='/toto?up_song=true'">UP SONG</button>
+<button onclick="window.location.href='/toto?low_song=true'">LOW SONG</button>
+Song volume :
 <?php
         $f = fopen('sound_value', 'r');
         $line = fgets($f);
         fclose($f);
-	echo $line;
+        echo $line;
 ?>
-<button onclick="window.location.href='/toto?low_song=true'">LOW SONG</button>
 
 </body>
 </html>
