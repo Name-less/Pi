@@ -1000,3 +1000,87 @@ git push -u origin master
 git credential-osxkeychain
 curl -s -O https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
 chmod u+x git-credential-osxkeychain
+kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ls
+ps -e | grep mplayer
+kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill 4393
+kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep cvlc
+ps -e | grep mplayer
+sudo kill 4526
+ps -e | grep cvlc
+ps -e | grep vlc
+ps -e | grep mplayer
+sudo kill 4541
+ls
+ps -e | grep mplayer
+sudo kill 4554
+ps -e | grep mplayer
+sudo kill 4560
+ps -e | grep mplayer
+sudo kill 4566
+ps -e | grep mplayer
+sudo kill 4572
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+mplayer -idle ./music/The_Good_Life_Chill_2015.mp3 &
+mplayer -idle ./music/The_Good_Life_Chill_2015.mp3
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | grep mplayer
+sudo kill 4702
+ps -e | grep mplayer
+sudo kill 4702
+ps -e | grep mplayer
+ps -e | grep you
+ps -e | grep mp
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+kill -SIGCONT $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e |grep mplayer
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+kill -9 4702
+sudo kill $(ps -e | grep mplayer | cut -d ' ' -f 2)
+kill -SIGSTOP $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill -SIGSTOP $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill -SIGCONT $(ps -e | grep mplayer | cut -d ' ' -f 2)
+sudo kill -SIGSTOP $(ps -e | grep mplayer | cut -d ' ' -f 2)
+ps -e | prep you
+ps -e | grep you
+ls
+rm git-credential-osxkeychain 
+ls
+cd music/
+ls
+cd .
+cd ..
+ls
+nano index.php
+ps -e | grep you
+nano index.php
+ps -e | grep you
+nano index.php
+ps -e | grep you
+nano index.php
+ps -e | grep you
+nano index.php
+git add -A
+git commit -m "minor modifications"
+git push -u origin master
+sudo halt

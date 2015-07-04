@@ -54,6 +54,31 @@ if($_GET["keep_song"]){
         exec("sudo kill -SIGCONT $(ps -e | grep mplayer | cut -d ' ' -f 2)");
 }
 
+if($_GET["up_song"]){
+	$f = fopen('sound_value', 'r');
+	$line = fgets($f);
+	fclose($f);
+
+	$line= $line+5;
+
+	$f = fopen('sound_value', 'w');
+	file_put_contents('sound_value', $line);
+        exec('amixer sset PCM '.$line.'%');
+}
+
+if($_GET["low_song"]){
+        $f = fopen('sound_value', 'r');
+        $line = fgets($f);
+        fclose($f);
+
+        $line= $line-5;
+
+        $f = fopen('sound_value', 'w');
+        file_put_contents('sound_value', $line);
+        exec('amixer sset PCM '.$line.'%');
+}
+
+
 $dir = '/home/pi/music';
 
 $dh  = opendir($dir);
@@ -86,6 +111,17 @@ while (false !== ($filename = readdir($dh))) {
 <button onclick="window.location.href='/toto?pause_song=true'">Pause broh it is enough</button>
 <button onclick="window.location.href='/toto?keep_song=true'">Continue broh</button>
 
+<br>
+<br>
+<button onclick="window.location.href='/toto?up_song=true'">UP SONG</button>
+<button onclick="window.location.href='/toto?low_song=true'">LOW SONG</button>
+Song volume :
+<?php
+        $f = fopen('sound_value', 'r');
+        $line = fgets($f);
+        fclose($f);
+        echo $line;
+?>
 
 </body>
 </html>
