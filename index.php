@@ -65,7 +65,7 @@ while (false !== ($filename = readdir($dh))) {
 
 	<input type="text" style="width:400px;" name="url_song">
 	<input type="hidden" name="dl" value="true"> 
-	<input type="submit" value="Download song from facebook !">
+	<input type="submit" value="Download song from youtube !">
 
 </form>
 
