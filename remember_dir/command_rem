@@ -1,0 +1,20 @@
+//play song
+mplayer
+
+//update passwd
+passwd username
+
+//change raspi config
+raspi-config
+
+//change host name
+on the raspi-config menu
+
+//send things through ssh
+scp my_file achille@lenid.local:/home/pi
+
+//know who is running on a port
+sudo netstat -nlp | grep 80
+
+//to dl video from youtube on audio format
+youtube-dl --extract-audio --audio-format mp3 <url>

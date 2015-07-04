@@ -1,0 +1,2 @@
+# create an alias
+alias.url = ( "/cgi-bin/" => "/var/www/servers/www.example.org/cgi-bin/" )
