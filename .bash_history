@@ -1,152 +1,3 @@
-hello
-ls
-cd python_games/
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd usr/
-ls
-cd ..
-ls
-root
-su
-tcpdump
-node
-apt-get node install
-sudo apt-get install nodejs npm
-sudo apt-get update
-sudo apt-get install nodejs npm
-npm install
-man npm
-apt-get install mysql-server mysql-client
-sudo apt-get install mysql-server mysql-client
-passwd
-cd etc/
-ls
-cd apache2
-ls
-nano apache2.conf
-sudo nano apache2.conf
-sudo /etc/init.d/apache2 start
-sudo nano apache2.conf
-sudo /etc/init.d/apache2 start
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/apache2 start
-sudo nano apache2.conf
-sudo /etc/init.d/apache2 start
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/apache2 start
-cd
-ls
-sudo apt-get curl 
-sudo apt-get curl
-man curl
-sudo /etc/init.d/apache2 stop
-ls
-nano REMEMBER_DIR/
-cd REMEMBER_DIR/
-nano lighttpd_rem
-cd /etc/lightdm
-ls
-nano lightdm.conf
-sudo nano lightdm.conf
-lighttpd
-sudo /etc/init.d/lighttpd restart
-sudo nano /etc/lighttpd/lighttpd.conf 
-sudo /etc/init.d/lighttpd restart
-ls
-cd
-ls
-cd REMEMBER_DIR/
-ls
-nano lighttpd_rem 
-exit
-apt-get install apache2
-sudo apt-get install apache2
-ifconfig
-ls
-pwd
-nano index.html
-ls
-pwd
-ls
-mkdir REMEMBER_DIR
-nano REMEMBER_DIR/
-cd REMEMBER_DIR/
-touch apache_rem
-nano apache_rem 
-ls
-cd ..
-ls
-sudo apt-get install phpmyadmin
-apt-get install php5-cgi
-sudo apt-get install php5-cgi
-sudo apt-get install php5-gd
-pwd
-sudo /etc/init.d/lighttpd restart
-sudo /etc/init.d/lightdm restart
-ls
-cd REMEMBER_DIR/
-ls
-nano apache_rem 
-cd ..
-ls
-sudo /etc/init.d/lightdm restart
-sudo /etc/init.d/lightdm stop
-sudo /etc/init.d/lightdm start
-ls
-sudo apt-get install lighttpd
-pwd
-exit
-sudo halt
-sudo raspi-config
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install avahi-daemon
-sudo raspi-config
-exit
-sudo raspi-config
-useradd achille
-sudo useradd achille
-sudo passwd achille
-ls
-cd ..
-ls
-cd ..
-ls
-pwd
-cd home
-ls
-cd ..
-ls
-cd usr
-ls
-cd ..
-ls
-cd ..
-ls
-sudo passwd root
-exit
-sudo passwd achille
-exit
-ls
-cd achille
-ls
-cd ..
-ls
-cd home/achille
-ls
-cd ..
-ls
-mv achille pi
-sudo mv achille pi
-ls
-exit
-ls
 pwd
 cd home
 ls
@@ -1131,3 +982,1019 @@ ls
 mv Bigflo\ \&\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 Bigflo\ \_\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 
 ls
 exit
+ls
+nano index.php
+ls
+nano TODO
+ls
+cd /etc/init.d
+ls
+cd ..
+ls
+cd php5
+ls
+nano conf.d
+cd apache2/
+ls
+nano conf.d
+ls
+nano php.ini
+cd /etc/init.d
+ls
+nano createserver.sh
+cd
+ls
+git add -A
+git commit -m "add a TODO file"
+git push -u origin master
+ls
+nano index.php
+ps -e | grep mplayer
+sudo kill -9 3842
+sudo kill -9 4046
+sudo kill -9 4171
+ps -e | grep mplayer
+kill 4183
+sudo kill 4183
+kill 4183
+ps -e | grep mplayer
+sudo kill 4189
+ps -e | grep mplayer
+nano index.php
+ls
+pwd
+mkdir nidWebSite
+mv index.php nidWebSite/
+mv sound_value nidWebSite/
+mv music/ nidWebSite/
+ls
+cd nidWebSite/
+ls
+cd ..
+ls
+mv music/ nidWebSite/
+ms
+ls
+cd /etc/init.d
+ls
+sudo nano createserver.sh
+cd
+ls
+mv nidWebSite/ achille
+ls
+sudo reboot
+cd achille/
+ls
+sudo netstat -lnp | grep 80
+ls
+nano index.php 
+ls
+cd ..
+ls
+mv index.php~ achille/
+ls
+cd achille/
+ls
+sudo kill 1955
+ls
+sudo php -S 0.0.0.0:80 &
+ls
+sudo netstat -lnp | grep 80
+cd /etc/init.d
+ls
+cd
+kill 2828
+sudo kill 2828
+ls
+cd ..
+ls
+cd pi
+ls
+sudo php -S 0.0.0.0:80 &
+cd /etc/init.d
+ls
+sudo nano createserver.sh
+sudo reboot
+ls
+cd achille
+ls
+man npm
+npm install angular
+nano package.json
+npm install angularjs
+npm install
+node -v
+node
+sudo apt-get install nodejs
+nodejs -v
+nano package.json 
+rm package.json 
+npm install -g grunt-cli
+sudo npm update npm -g
+npm install -g grunt-cli
+npm config set registry https://registry.npmjs.org/
+npm install -g grunt-cli
+sudo apt-get purge nodejs npm
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs
+npm install -g grunt-cli
+sudo npm install -g grunt-cli
+npm install -g bower
+sudo npm install -g bower
+git clone "git@github.com:<github username>/angular.js.git"
+git clone "git@github.com:Name-less/angular.js.git"
+sudo npm install -g yo
+sudo npm install -g generator-angular
+ls
+mkdir app
+cd app
+ls
+yo angular
+lsls
+ls
+nano pa
+ls
+cd achille/
+ls
+cd app/
+ls
+nano package.json 
+ls
+cd app
+ls
+nano 404.html
+ls
+pws
+pwd
+ls
+nano index.html 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf app
+ls
+mkdir app
+cd app
+nano package.json
+ls
+npm install
+ls
+cd node_modules/
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf app
+ls
+nano index.php
+ls
+mkdir app
+cd app
+ls
+git clone https://github.com/Name-less/angularJsNidSite.git
+ls
+cd angularJsNidSite/
+ls
+bower install
+npm install
+ls
+cd app
+ls
+nano index.html
+pwd
+nano index.html
+ls
+nano index.html
+ls
+pwd
+nano index.html
+ls
+cd bower_components/
+ls
+cd ..
+ls
+cd ..
+ls
+bower install angular-material
+ls
+cd app
+ls
+cd bower_components/
+ls
+cd ..
+ls
+nano index.html
+ls
+nano index-async.html 
+ls
+nano index.html 
+ls
+nano mainApp.js
+ls
+nano index.html
+nano mainApp.js 
+nano index.html 
+bower install angular-aria
+nano index.html 
+mv index.html index.php
+sudo halt
+ls
+cd achille/
+ls
+cd app/
+ls
+pwd
+mv angularJsNidSite/ /home/pi/achille
+ls
+cd ..
+ls
+cd app
+ls
+cd ..
+ls
+rm -rf app
+ls
+cd ..
+ls
+cd achille
+ls
+mv angularJsNidSite/ /home/pi
+ls
+cd ..
+ls
+mv angularJsNidSite/ achillejs
+ls
+pwd
+ls
+cd achille
+ls
+cd ..
+ls
+cd achillejs
+ls
+cd app
+ls
+rm index-async.html 
+ls
+mv mainApp.js app.js
+ls
+nano music.php
+ls
+cd ..
+ls
+git add -A
+git commit -m "project configured, start the music part"
+git push -u origin master
+ls
+nano package.json 
+npm install angular-material --save
+ls
+cd achille/
+ls
+cd app/
+ls
+cd angularJsNidSite/
+ls
+cd app
+ls
+nano index.php 
+nano index
+nano index.php
+cd achille/
+ls
+cd app
+cd angularJsNidSite/
+cd app
+ls
+nano mainApp.js 
+ls
+cd
+ls
+cd achillejs
+ls
+cd app
+ls
+rm view1
+rm -rf view1
+rm -rf view2
+ls
+nano app.js
+rm app.js
+ls
+nano index-async.html 
+nano app.js
+ls
+cd achillejs
+ls
+cd app
+ls
+nano index.php 
+cd achillejs
+cd app
+nano app.js 
+sudo halt
+cd achillejs/app/
+nano index.php 
+nano music.php 
+nano index.php 
+nano music.php 
+nano index.php 
+nano music.php 
+nano index.php 
+ls
+nano home.php
+nano index.php 
+ls
+nano home.php 
+nano index.php 
+nano music
+nano music.php
+ls
+cd ..
+ls
+git add -A
+ls
+cd app
+ls
+cd ..
+ls
+nano .gitignore
+ls
+git status
+git add -A
+git commit -m "nid web site over angular fully working for the music part, go to sleep"
+git push -u origin master
+exit
+cd achillejs/app/
+nano app.js
+pwd
+ls
+nano app.js
+cd php_scripts/
+nano play_song.php 
+cd ..
+nano app.js
+pwd
+ls
+nano app.js
+nano music.php 
+nano app.js
+exit
+ls
+cd achillejs
+cd app
+ls
+nano music.json
+ls
+nano music.json
+ls
+cd ..
+ls
+cd ..
+ls
+cd achille
+ls
+cp music /home/pi/achillejs/app/
+ls
+cd ..
+cd achillejs/app/
+ls
+cd ..
+cd achille
+ls
+cp -r music /home/pi/achillejs/app/
+cd ..
+cd achillejs/app/
+ls
+chmod 777 music
+ls
+cd ..
+ls
+cd ..
+ls
+cd achille
+ls
+nano index.php
+ls
+cd ..
+cd achillejs/app/music/
+ls
+cd
+cd achille
+nano index.php
+cd ..
+cd achillejs/app/music/
+ls
+mv Ndiya\ -\ Et\ C\'Est\ Parti...\ \(Vido\ Clip\)\ ft.\ Smartzee-xchGAzcDNlw.mp3 /home/pi/achillejs
+ls
+cd ..
+ls
+cd ..
+ls
+mv Ndiya\ -\ Et\ C\'Est\ Parti...\ \(Vido\ Clip\)\ ft.\ Smartzee-xchGAzcDNlw.mp3 /home/pi/achillejs/app/music
+ls
+cd ..
+ls
+cd achille
+ls
+nano index.php
+cd ..
+cd achillejs/app/
+ls
+nano play_song.php
+ls
+cd app
+ls
+cd ..
+ls
+nano play_song.php 
+ls
+mkdir php_scripts
+mv play_song.php php_scripts/
+cd php_scripts/
+nano play_pause.php
+nano play_song.php 
+ls
+nano play_pause.php 
+ls
+nano change_soung.php
+nano play_song.php 
+nano change_soung.php
+mv change_soung.php change_sound.php 
+nano change_sound.php
+nano dl_video.php
+ls
+nano change_sound.php 
+ls
+nano dl_video.php 
+ls
+nano change_sound.php 
+ls
+nano sound_value
+nano get_sound_value.php
+ls
+nano sound_value 
+ls
+nano change_sound.php 
+mv change_sound.php change_sound_volume.php 
+ls
+nano get_json_song.php
+exit
+ls
+cd achillejs
+ls
+cd app/
+ls
+cd
+cd achille
+ls
+nano index.php
+ls
+ps -e | grep you
+nano index.php
+ps -e | grep you
+ls
+cd ..
+ls
+cd achillejs
+ls
+cd app
+ls
+cd music/
+ls
+cd ..
+ls
+cd php_scripts/
+ls
+cd ..
+ls
+cd php_scripts/
+ls
+rm Christophe\ Ma\ -\ Tomb\ Sous\ Le\ Charme\ \[Clip\ Officiel\]-yRGiYUEFFww.mp3 
+ls
+cd ..
+ls
+ps -e | grep you
+cd
+cd achille
+ls
+nano index.php
+ls
+cd ..
+ls
+cd achillejs
+ls
+cd app
+ls
+nano index.php 
+nano app.js
+ps -e | grep you
+ls
+nano index.php 
+nano music.php
+sudo halt
+exit
+          cd /media
+ls
+mkdir external
+sudo mkdir external
+ls
+sudo mount -t vfat /dev/sdb1 /media/external -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
+sudo mount -t vfat /dev/sdb2 /media/external -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
+sudo mount -t vfat /dev/sdb3 /media/external -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
+sudo mount -t vfat /dev/sdb4 /media/external -o uid=1000,gid=1000,utf8,dmask=027,fmask=137
+cd ..
+ls
+cd mnt
+ls
+l
+ls
+mkdir usb
+sudo mkdir usb
+sudo mount /dev/sdb1 /mnt/usb
+sudo mount /dev/sdb2 /mnt/usb
+sudo mount /dev/sdb3 /mnt/usb
+sudo mount /dev/sdb4 /mnt/usb
+ls
+cd usb
+ls
+cd ..
+ls
+sudo chmod -R a+rw /mnt/usb
+sudo find /mnt/usb -type d -exec chmod a+x {} \;
+sudo mount /dev/sdb1 /mnt/usb
+sudo mount /dev/sdb2 /mnt/usb
+sudo mount /dev/sdb3 /mnt/usb
+sudo mount /dev/sdb4 /mnt/usb
+sudo mount /dev/sda1 /mnt/usb
+ls
+cd usb
+ls
+cd ..
+ls
+sudo unmount /dev/sda1 /mnt/usb
+sudo umount /dev/sda1 /mnt/usb
+ls
+cd usb/
+ls
+sudo mount /dev/sda2 /mnt/usb
+sudo mount /dev/sda3 /mnt/usb
+sudo mount /dev/sda4 /mnt/usb
+sudo mount /dev/sda1 /mnt/usb
+ls
+cd ..
+ls
+cd usb
+ls
+cd System\ Volume\ Information/
+ls
+cd ..
+ls
+cd boot
+ls
+cd ..
+ls
+cd ..
+ls
+cd usb
+ls
+cd ..
+sudo umount /dev/sda1 /mnt/usb
+ls
+cd usb
+ls
+cd .
+ls
+cd ..
+ls -l /dev/disk/by-uuid/
+sudo chown -R pi:pi /media/usb
+sudo chown -R achille:achille /media/usb
+sudo chown -R achille:pi /media/usb
+sudo chown -R achille:pi /mnt/usb
+sudo mount /dev/sda1 /media/usb -o uid=pi,gid=pi
+sudo mount /dev/sda2 /media/usb -o uid=pi,gid=pi
+sudo mount /dev/sda3 /media/usb -o uid=pi,gid=pi
+sudo mount /dev/sda1 /mnt/usb -o uid=pi,gid=pi
+ls
+sudo nano /etc/fstab
+ls
+cd usb/
+ls
+cd ..
+ls
+cd usb
+ls
+sudo mount /dev/sda1 /mnt/usb
+ls
+cd ..
+ls
+cd usb
+ls
+mkdir music
+sudo mkdir music
+ls
+cd music/
+ls
+ps -e | grep music
+ps -e | grep you
+ls
+cd ..
+ls
+cd ..
+ls
+cd usb
+ls
+cd ..
+ls
+chmod 777 usb
+sudo chmod 777 usb
+cd usb
+ls
+sudo chmod 777 music 
+ls
+cd ..
+ls
+cd us
+cd usb
+cd music/
+ls
+ps -e
+ps -e | grep you
+ls
+cp /home/pi/achillejs/app/music/* /mnt/usb/music
+sudo cp /home/pi/achillejs/app/music/* /mnt/usb/music
+ls
+cd ..
+cd
+cd achillejs
+git add -A
+git commit -m "usb mounted done"
+git push
+ps -e | grep you
+cd /mnt/usb
+ls
+cd music/
+ls
+mplayer The_Good_Life_Chill_2015.mp3 
+
+ps -e | grep you
+ls
+cd /home/pi/achillejs
+ls
+cd app
+ls
+cd music
+ls
+cd /mnt
+ls
+cd usb
+ls
+cd music
+ls
+sudo halt
+ls
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano dl_video.php 
+ls
+sudo nano play_song.php
+ls
+sudo nano get_json_song.php 
+ls
+nano dl_video.php
+ls
+cp Sexion\ D\'Assaut\ -\ Dsol-NLAbYWKwrfk.mp3 /mnt/usb/music
+sudo cp Sexion\ D\'Assaut\ -\ Dsol-NLAbYWKwrfk.mp3 /mnt/usb/music
+ls
+sudo cp Spinnin\'\ Records\ Summer\ Mix\ 2015-XnvTFrZ6xsg.mp3 /mnt/usb/music
+ls
+rm Spinnin\'\ Records\ Summer\ Mix\ 2015-XnvTFrZ6xsg.mp3 
+ls
+sudo cp Sexion\ D\'Assaut\ -\ Wati\ House-eIrRPLzDrHU.mp3 /mnt/usb/music
+ls
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+rm Sexion\ D\'Assaut\ -\ Dsol-NLAbYWKwrfk.mp3 
+rm Sexion\ D\'Assaut\ -\ Wati\ House-eIrRPLzDrHU.mp3 
+ls
+nano play_song.php 
+ls
+cd ..
+ls
+nano app.js
+ls
+cd ..
+ls
+git add -A
+git commit -m "try to go to next sound after the end of the current one, need to fix the length of the json aray receive to launch the next random"
+sudo mount /dev/sda1 /mnt/usb
+ls
+cd /mnt/usb/music
+ls
+cd ..
+ls
+cd ..
+sudo chmod 777 usb
+ls
+sudo netstat -lnp | grep 80
+ls
+cd usb
+sudo chmod 777 music
+ls
+sudo chmod 777 musics
+ps -e | grep you
+cd
+sudo kill -9 2002
+sudo php -S 0.0.0.0:80 &
+cd
+ls
+cd /mnt/usb/music/
+ls
+mplayer -identify The_Good_Life_Chill_2015.mp3 2>/dev/null | grep ID_LENGTH
+mplayer -identify Wake\ me\ up\ Before\ you\ Go\ Go-\ lyrics-hignzKHphvQ.mp3 2>/dev/null | grep ID_LENGTH
+mplayer -identify Spinnin\'\ Records\ Summer\ Mix\ 2015-XnvTFrZ6xsg.mp3 2>/dev/null | grep ID_LENGTH
+ffmpeg -i The_Good_Life_Chill_2015.mp3 
+mpg123 -t
+sudo apt-get install ffmpeg
+ffmpeg -i The_Good_Life_Chill_2015.mp3 
+ffmpeg -i The_Good_Life_Chill_2015.mp3 | 
+ffmpeg -i The_Good_Life_Chill_2015.mp3 
+ffmpeg -i file.mp4 2>&1 | grep Duration | awk '{print $2}' | tr -d ,
+ffmpeg -i file.mp4 2>&1 | grep Duration | awk '{print $2}' | tr -d
+ffmpeg -i The_Good_Life_Chill_2015.mp3 2>&1 | grep Duration | awk '{print $2}' | tr -d ,
+ls
+cd
+ls
+cd achillejs
+ls
+cd app
+ls
+cd app
+ls
+cd ..
+ls
+cd app.js
+nano app.js
+ffmpeg -i The_Good_Life_Chill_2015.mp3 2>&1 | grep Duration | awk '{print $2}' | tr -d ,
+≈
+ffmpeg -i The_Good_Life_Chill_2015.mp3 2>&1 | grep Duration | awk '{print $2}' | tr -d ,
+l
+ls
+cd app.js
+nano app.js
+cd /mnt/usb/music;ffmpeg -i Bigflo\ _\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 | grep Duration | awk '{print $2}' | tr -d ,
+cd /mnt/usb/music;ffmpeg -i Bigflo\ _\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 2>$1 | grep Duration | awk '{print $2}' | tr -d ,
+cd
+cd /mnt/usb/music;ffmpeg -i Bigflo\ _\ Oli\ -\ Comme\ d\'hab-lNR_LkDju6g.mp3 2>$1 | grep Duration | awk '{print $2}' | tr -d ,
+cd /mnt/usb/music;ffmpeg -i S\'il\ Te\ Plait-coq9klG41R8.mp3 2>&1 | grep Duration | awk '{print $2}' | tr -d ,
+ls
+cd
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano get_js
+nano get_json_song.php 
+cd ..
+ls
+nano music.php 
+cd php_scripts/
+ls
+nano get_json_song.php 
+ls
+nano play_song.php 
+nano get_json_song.php 
+cd ..
+ls
+nano music.php 
+ls
+nano music.php 
+sudo halt
+ls
+sudo mount /dev/sda1 /mnt/usb
+cd /mnt/usb/
+ls
+cd music
+ls
+cd ..
+ls
+chmod 777 music
+sudo chmod 777 music
+ls
+cd ..
+ls
+sudo chmod 777 usb/
+ps -e | grep you
+sudo netstat -lnp | grep 80
+ls
+sudo ifconfig
+ps -e
+sudo kill 1991
+ls
+cd
+sudo php -S 0.0.0.0:80 &
+ps -e | grep mplayer
+ls
+cd bash_script/
+ls
+cd ..
+ls
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano play_song.php 
+ls
+cd ..
+ls
+nano music.php
+nano app.js
+ls
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano nano get_json_song.php 
+nano get_json_song.php 
+ls
+nano play_song.php 
+nano get_json_song.php 
+cd ..
+ls
+nano app.js
+cd /mnt/usb
+ls
+sudo mount /dev/sda1 /mnt/usb
+ls
+ps -e
+sudo kill 2009
+sudo php -S 0.0.0.0:80 &
+ls
+cd
+ps -e
+sudo kill 2850
+sudo php -S 0.0.0.0:80 &
+ps -e | grep player
+ls
+cd achillejs
+ls
+cd app
+cd php_scripts/
+ls
+nano get_sound_length.php
+ls
+cd ..
+ls
+nano music.php
+ls
+cd ..
+ls
+git add -A
+git commit -m "next random music when the current one finish working"
+git add -A
+git commit -m "add the number of sound avaible for the choice of the random number"
+ls
+cd app
+ls
+nano index.php 
+git add -A
+git commit -m "change tab website name"
+ls
+cd /mnt/usb
+ls
+cd music
+ls
+ps -e | grep you
+ls
+ps -e | grep you
+ls
+cd ..
+df
+ps -e | grep yous
+ps -e | grep mp
+sudo kill 4579
+sudo kill 8044
+ps -e | grep yous
+ps -e | grep you
+ls
+cd music
+ls
+rm sound.sh 
+ls
+sudo rm sound.sh 
+ls
+ps -e | grep you
+cd
+cd /mnt/usb/music/
+ps -e | grep you
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+cd achillejs
+ls
+cd app
+ls
+cd music/
+ls
+cd /mnt/usb
+ls
+cd music/
+ls
+cd
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano play_song.php 
+ps -e | grep you
+nano play_song.php 
+ls
+nano dl_video.php 
+ps -e | grep you
+cd /mnt/usb
+cd /music
+ls
+cd music/
+ls
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'> /dev/null 2>/dev/null
+ls
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+ls
+cd ..
+ls
+sudo chmod 777 music/
+cd ..
+ls
+cd chmod 777 usb
+sudo chmod 777 usb
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+ls
+cd ..
+ls
+sudo chmod 777 music/
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+cd /mnt/usb/music;sudo /usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+man gcc
+sudo apt-get install gcc
+gdb
+kill %1
+jobs
+cd /mnt/usb/music;sudo /usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+sudo chmod +x youtube-dl
+sudo chmod +x /usr/local/bin/youtube-dl
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+cd;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+cd
+ls
+rm Tragédie\ -\ Hey\ Oh-m5kURsPznXw.mp3
+rm Tragédie\ -\ Hey\ Oh-m5kURsPznXw.m4a 
+ls
+cd /mnt/usb
+ls
+sudo chmod 777 mnt
+sudo chmod 777 /mnt
+sudo chmod 777 /usb
+sudo chmod 777 /mnt/usb
+sudo chmod 777 /mnt/usb/music
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+sudo reboot
+cd /etc
+ls
+cd /init.d
+ls
+cd init.d
+ls
+nano createserver.sh
+cd
+ls
+pwd
+ps -e
+kill -9 2000
+sudo kill -9 2000
+ls
+sudo php -S 0.0.0.0:80 &
+sudo reboot

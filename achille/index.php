@@ -17,7 +17,7 @@ if($_GET["dl"]){
 	exec($cmd);
         echo '
         <script>
-                window.location.replace("http://lenid.local/toto");
+                window.location.replace("http://lenid.local/achille/");
         </script>
 ';
 }
@@ -32,12 +32,13 @@ if($_GET["play_song"]){
 	$name = str_replace('&','\&',$name);
 	echo exec("kill $(ps -e | grep mplayer | cut -d ' ' -f 2)");
 	$cmd = 'mplayer -idle ./music/'.$name.'> /dev/null 2>/dev/null &';
+	//$cmd = 'mplayer -idle ./music/'.$name;
 	echo $cmd;
 	echo "<br>";
 	exec($cmd);
 	echo '
 	<script>
-        	window.location.replace("http://lenid.local/toto");
+        	window.location.replace("http://lenid.local/achille/");
 	</script>
 ';
 	//exec("mplayer -idle ./music/Black M - Foutue mlodie (audio)-ZsnYgCy0YrI.mp3");
@@ -80,14 +81,14 @@ if($_GET["low_song"]){
 }
 
 
-$dir = '/home/pi/music';
+$dir = '/home/pi/achille/music';
 
 $dh  = opendir($dir);
 $pattern = '/*';
 while (false !== ($filename = readdir($dh))) {
 	if(preg_match('`[a-z]*[m][p][3]`',$filename)){
 	//if(preg_match('`^[[:alnum:]]`',$filename)){
-	        echo '<a href="/toto?play_song=true&name='.$filename.'">'.$filename.'</a>';
+	        echo '<a href="/achille?play_song=true&name='.$filename.'">'.$filename.'</a>';
         	echo "<br>";
 		echo "<br>";
 	}
@@ -96,7 +97,7 @@ while (false !== ($filename = readdir($dh))) {
 	echo "<br>";
 
 ?>
-<form action="toto" method="GET">
+<form action="achille" method="GET">
 
 	<input type="text" style="width:400px;" name="url_song">
 	<input type="hidden" name="dl" value="true"> 
@@ -107,15 +108,15 @@ while (false !== ($filename = readdir($dh))) {
 <br>
 <br>
 
-<button onclick="window.location.href='/toto?stop_song=true'">Stop song bitches !</button>
+<button onclick="window.location.href='/achille?stop_song=true'">Stop song bitches !</button>
 
-<button onclick="window.location.href='/toto?pause_song=true'">Pause broh it is enough</button>
-<button onclick="window.location.href='/toto?keep_song=true'">Continue broh</button>
+<button onclick="window.location.href='/achille?pause_song=true'">Pause broh it is enough</button>
+<button onclick="window.location.href='/achille?keep_song=true'">Continue broh</button>
 
 <br>
 <br>
-<button onclick="window.location.href='/toto?up_song=true'">UP SONG</button>
-<button onclick="window.location.href='/toto?low_song=true'">LOW SONG</button>
+<button onclick="window.location.href='/achille?up_song=true'">UP SONG</button>
+<button onclick="window.location.href='/achille?low_song=true'">LOW SONG</button>
 Song volume :
 <?php
         $f = fopen('sound_value', 'r');
