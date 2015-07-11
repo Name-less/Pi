@@ -1,253 +1,3 @@
-pwd
-cd home
-ls
-cd achille/
-ls
-cd REMEMBER_DIR/
-ls
-nano command_rem
-ls
-history
-ls
-man scp 
-ls
-pwd
-ls
-cd ..
-ls
-mv pi achille
-sudo mv pi achille
-ls
-pwd
-cd achille/
-ls
-play The_Good_Life_No.3_A_Deep_House_Summer_Mix_2015_vid-mp3.org.mp3 
-man play
-man mpg123
-man mplayer
-apt-get install mplayer
-sudo apt-get install mplayer
-mplayer The_Good_Life_No.3_A_Deep_House_Summer_Mix_2015_vid-mp3.org.mp3 
-ewit
-exit
-sudo halt
-ls
-mkdir bash_script
-cd bash_script/
-nano sound.sh
-pwd
-ls
-./sound.sh
-man chmod
-chmod 444 sound.sh
-./sound.sh
-chmod 700 sound.sh
-./sound.sh 
-nano sound.sh
-./sound.sh 
-nano sound.sh
-./sound.sh 
-ls
-pwd
-chmod 777 sound.sh
-nano sound.sh
-nano test.sh
-chmod 777 test.sh
-ls
-./test.sh
-ls
-rm toto
-rm -rf toto
-ls
-sudo lighty-enable-mod fastcgi
-sudo lighty-enable-mod fastcgi-php
-sudo /etc/init.d/lighttpd force-reload
-sudo /etc/init.d/lighttpd stop
-sudo /etc/init.d/lighttpd start
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/lighttpd start
-ls
-sudo lighty-enable-mod fastcgi
-sudo lighty-enable-mod fastcgi-php
-sudo /etc/init.d/lighttpd force-reload
-sudo /etc/init.d/lighttpd stop
-sudo /etc/init.d/apache2 start
-/etc/apache2/
-ls
-cd /etc/apache2
-ls
-nano apache2.conf 
-sudo nano apache2.conf 
-ls
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/apache2 start
-sudo nano apache2.conf 
-sudo /etc/init.d/apache2 start
-ls
-ls -a
-nano apache2.conf 
-ls
-cd
-ls
-nano .htaccess
-ls
-ls -a
-rm .htaccess 
-cd /etc/apache2
-cd conf.d
-ls
-cd /etc
-ls
-cd php5
-ls
-cd conf.d
-ls
-cd ..
-ls
-cd apache2
-ls
-cd conf.d
-ls
-cd ..
-ls
-cd ..
-ls
-cd /etc/apache2
-ls
-more apache2.conf | grep php
-nano apache2.conf 
-sudo nano apache2.conf 
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/apache2 start
-ls
-sudo nano apache2.conf 
-ls
-cd mods-available/
-ls
-nano php5.conf 
-sudo nano php5.conf 
-su
-ls
-nano php5.conf
-sudo /etc/init.d/apache2 stop
-sudo /etc/init.d/apache2 start
-nano php5.conf
-sudo nano php5.conf
-cd ..
-ls
-cd conf.d
-ls
-cd ..
-ls
-cd /etc/lighttp
-cd /etc/lighttpd
-ls
-sudo nano lighttpd.conf 
-sudo service lighttpd restart 
-sudo service apache2 stop 
-sudo service lighttpd restart 
-cd
-ls
-cd bash_script/
-ls
-pwd
-ls
-cd ..
-ls
-nano test.sh
-ls
-chmod 777 test.sh
-ls
-./test.sh
-ls
-./test.sh 
-nano test.sh
-./test.sh 
-ls
-rm lol
-rm -r lol
-ls
-rm test.sh
-ls
-cd bash_script/
-ls
-nano test.sh
-ls
-nano test.sh
-ls
-cd ..
-ls
-cd bash_script/
-ls
-nano test.sh
-chmod 777 test.sh
-l
-ls
-nano sound.sh
-ls
-cd ..
-ls
-cd music
-ls
-cd ..
-ls
-pwd
-ls
-cd /etc/lighttpd
-ls
-cd /var/log/lighttpd
-ls
-sudo cd /var/log/lighttpd
-cd /var/log/lighttpd
-sudo cd /var/log/lighttpd
-su
-ls
-cd music/
-ls
-mv The_Good_Life_No.3_A_Deep_House_Summer_Mix_2015_vid-mp3.org.mp3 The_Good_Life_Chill_2015.mp3
-ls
-ps -ef | grep sound
-ps -e | grep sound
-ps -a | grep sound
-ps -e
-ps -e | grep sound
-ps -e
-ps -e | grep sound
-ps -e | grep vlc
-kill -9 7267
-sudo kill -9 7267
-sudo kill -9 7273
-sudo kill -9 7278
-sudo kill -9 7299
-sudo kill -9 7305
-ps -e | grep vlc
-ps -e | grep sound
-ps -e | grep vlc
-sudo kill 7337
-ps -e | grep vlc
-kill 7363
-sudo kill 7363
-sudo kill 7372
-ps -e | grep vlc
-sudo kill 7385
-ps -e | grep vlc
-sudo kill 7410
-ps -e | grep vlc
-sudo kill 7425
-ps -e | grep vlc
-sudo kill 7435
-ps -e | grep vlc
-sudo kill 7445
-sudo kill 7450
-sudo kill 7455
-ps -e | grep vlc
-sudo kill 7470
-ps -e | grep vlc
-sudo kill 7497
-ps -e | grep vlc
-sudo kill 7535
-sudo apt-get install banshee
-ps -e | grep vlc
 sudo kill 12221
 ps -e | grep vlc
 ps -e | grep bansh
@@ -1998,3 +1748,253 @@ sudo kill -9 2000
 ls
 sudo php -S 0.0.0.0:80 &
 sudo reboot
+sudo mount /dev/sda1 /mnt/usb
+sudo php -S 0.0.0.0:80 &
+cd /mnt/usb
+ls
+cd music
+ls
+ps -e | grep you
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+sudo chmod 777 /mnt
+sudo chmod 777 /mnt/usb
+sudo chmod 777 /mnt/usb/music
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+sudo chmod 777 /usr/local/bin/youtube-dl
+cd /mnt/usb/music;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=m5kURsPznXw'
+ls
+cd
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano dl_video.php 
+ps -e | grep you
+cd
+ls
+ps -e | grep you
+ps -e | grep you ; ls
+cd /mnt/usb/music
+ls
+cd
+ls
+cd achillejs
+ls
+cd app
+ls
+nano app.js
+ps -e | grep you
+ls
+cd /mnt/usb/music
+ls
+cd
+ls
+ps -e | grep you
+ls
+ps -e | grep you
+cd 
+cd achillejs
+cd app
+nano app.js
+cd
+ls
+ps -e | grep you
+cd;/usr/local/bin/youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=7lEVN0Db-uE'> /dev/null 2>/dev/null;mv 'https://www.youtube.com/watch?v=7lEVN0Db-uE' /mnt/usb/music
+ls
+cd
+ls
+mkdir tmp
+ls
+cd tmp
+ls
+cd
+cd achillejs
+cd app
+cd php_scripts/
+ls
+nano dl_video.php 
+ps -e | grep you
+cd ..
+ls
+nano app.js
+ps -e | grep you
+cd
+cd achillejs
+ls
+git add -A
+git commit -m "modification to bypass permission while trying to directly write on the usb key"
+ls
+cd app
+ls
+nano music.php
+ls
+nano app.js
+cd ..
+ls
+git add -A
+git commit -m "add a progress bar circular while downloading song from youtube"
+ls
+cd app
+ls
+nano home.php 
+nano index.php 
+nano app.js
+cp home.php chat.php
+ls
+nano music.php
+nano app.js
+nano music.php
+nano app.js
+ls
+cd php_scripts/
+nano get_sound_playing.php
+ls
+nano sound_playing
+nano get_sound_value.php
+nano get_sound_playing.php 
+ls
+nano change_sound_volume.php 
+nano play_song.php 
+ls
+cd ..
+ls
+nano app
+nano app.js
+ls
+cd php_scripts/
+ls
+nano sound_playing 
+cd ..
+nano app.js
+ls
+nano music.php
+ls
+cd ..
+ls
+git add -A
+git commit -m "Add the sound actually play on the music header, before the searching"
+git push -u origin master
+git push origin master
+ls
+cd
+ls
+rm J\'irais\ où\ tu\ iras\ +paroles-7lEVN0Db-uE.m4a.part 
+ls
+git status
+git add -A
+nano .gitignore 
+cd achille
+ls
+cd music
+ls
+cd ..
+ls
+cd music
+ls
+rm *
+y
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+git add -A
+nano .gitignore 
+git add -A
+nano .gitignore 
+git add -A
+git status
+ls
+ls -l
+ls
+ls -a
+nano .gitignore
+git status
+git reset
+nano .gitignore 
+git status
+git add -A
+git status
+ls
+git commit -m "update majoritary of the nid angularjs web site"
+git push -u origin master
+git halt
+sudo halt
+exit
+ls
+sudo reboot
+ls
+cd /etc/init.d
+nano createserver.sh
+sudo nano createserver.sh
+sudo reboot
+cd /mnt/usb
+ls
+cd
+git commit -m "usb mounted done"
+cd /mnt/usb
+ls
+cd ..
+ls
+cd usb
+ls
+cd /etc/init.d
+sudo nano createserver.sh
+sudo reboot
+cd /mnt/usb
+ls
+cd /etc/init;d
+cd /etc/init.d
+nano createserver.sh
+sudo nano createserver.sh
+man vol_id
+/usr/lib/udisks/
+ls
+sudo #apt-get install udev
+sudo apt-get install udev
+cd /etc/udev/rules.d/
+ls
+sudo nano 11-media-by-label-auto-mount.rules
+udevadm control --reload-rules
+sudo udevadm control --reload-rules
+ls
+cd
+cd /media
+ls
+cd external/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo umount /dev/sda1
+cd /media
+ls
+cd usbhd-sda1/
+ls
+cd music/
+ls
+cd ..
+ls
+pwd
+sudo reboot
+sudo mount /dev/sda1 /mnt/usb
+ls
+cd
+ps -e | grep php
+sudo kill 1999
+sudo php -S 0.0.0.0:80 &
+cd achillejs
+ls
+cd app
+ls
+cd php_scripts/
+ls
+nano get_json_song.php 
+nano play_song.php 
+ls
+nano dl_video.php 
+ls
